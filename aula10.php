@@ -4,8 +4,8 @@ include("aula08.php");
 class Triangulo extends Shape {
 
     public function __construct($a , $b) {
-        $this->$a;
-        $this->$b; 
+        $this->altura = $a;
+        $this->base = $b; 
     }
 
     function getCalArea() {
